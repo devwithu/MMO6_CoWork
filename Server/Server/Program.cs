@@ -28,9 +28,9 @@ namespace Server
 			RoomManager.Instance.Add();
 
 			// DNS (Domain Name System)
-			//string host = Dns.GetHostName();
-			//IPHostEntry ipHost = Dns.GetHostEntry(host);
-			//IPAddress ipAddr = ipHost.AddressList[0];
+			string host = Dns.GetHostName();
+			IPHostEntry ipHost = Dns.GetHostEntry(host);
+			IPAddress ipAddr = ipHost.AddressList[0];
 			IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 7777);
 
 			_listener.Init(endPoint, () => { return SessionManager.Instance.Generate(); });
