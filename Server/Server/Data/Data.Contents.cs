@@ -1,12 +1,11 @@
 ﻿using Google.Protobuf.Protocol;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Text;
 
-namespace Data
-{ 
-#region Stat
+namespace Server.Data
+{
+	#region Stat
 	[Serializable]
 	public class Stat
 	{
