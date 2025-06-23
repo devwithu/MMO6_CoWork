@@ -14,14 +14,13 @@ namespace Server.DB
 
 		static readonly ILoggerFactory _logger = LoggerFactory.Create(builder => { builder.AddConsole(); });
 
-		string _connectionString = @"Server=127.0.0.1;Database=mmo6;Uid=root;Pwd=;";
+		string _connectionString = @"Server=127.0.0.1;Database=gamedb;Uid=root;Pwd=;";
 
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
 		{
 			options
 				.UseLoggerFactory(_logger)
-				//.UseMySQL(ConfigManager.Config == null ? _connectionString : ConfigManager.Config.connectionString);
-				.UseMySQL(_connectionString);
+				.UseMySql(_connectionString, ServerVersion.AutoDetect(_connectionString));
 		}
 
 		protected override void OnModelCreating(ModelBuilder builder)
