@@ -18,12 +18,14 @@ namespace Server.DB
 		//string _connectionString = @"Server=base2.jdj.kr;Database=GameDB;User Id=sa;Password=mandlJa**18;Integrated Security=False;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 		string _connectionString = @"Server=127.0.0.1;Database=gamedb;Uid=root;Pwd=;";
 
+
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
 		{
 			options
 				.UseLoggerFactory(_logger)
 				//.UseSqlServer(ConfigManager.Config == null ? _connectionString : ConfigManager.Config.connectionString);
 				.UseMySql(_connectionString, ServerVersion.AutoDetect(_connectionString));
+
 		}
 
 		protected override void OnModelCreating(ModelBuilder builder)
