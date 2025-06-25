@@ -13,6 +13,7 @@ fi
 
 # 파일 복사
 cp -f Protocol.cs "../../../Client/Assets/Scripts/Packet/"
+cp -f Protocol.cs "../../../Server/DummyClient/Packet/"
 cp -f Protocol.cs "../../../Server/Server/Packet/"
 cp -f ClientPacketManager.cs "../../../Client/Assets/Scripts/Packet/"
 cp -f ServerPacketManager.cs "../../../Server/Server/Packet/"
