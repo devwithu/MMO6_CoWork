@@ -28,7 +28,7 @@ public class WebManager
 		using (var uwr = new UnityWebRequest(sendUrl, method))
 		{
 			uwr.certificateHandler = new BypassCertificate();
-			
+
 			uwr.uploadHandler = new UploadHandlerRaw(jsonBytes);
 			uwr.downloadHandler = new DownloadHandlerBuffer();
 			uwr.SetRequestHeader("Content-Type", "application/json");
@@ -55,4 +55,5 @@ public class WebManager
 			return true;
 		}
 	}
+
 }
