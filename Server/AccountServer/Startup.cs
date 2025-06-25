@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SharedDB;
 
 namespace AccountServer
 {
@@ -25,7 +26,8 @@ namespace AccountServer
 		public IConfiguration Configuration { get; }
 
 		//string _connectionString = @"Server=base2.jdj.kr;Database=GameDB;User Id=sa;Password=mandlJa**18;Integrated Security=False;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-		string _connectionString = @"Server=127.0.0.1;Database=account;Uid=root;Pwd=;";
+		string _accountConnectionString = @"Server=127.0.0.1;Database=account;Uid=root;Pwd=;";
+		string _shareddbConnectionString = @"Server=127.0.0.1;Database=shareddb;Uid=root;Pwd=;";
 		
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
@@ -37,9 +39,13 @@ namespace AccountServer
 			});
 
 			services.AddDbContext<AppDbContext>(options =>
-				options
-					//.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-					.UseMySql(_connectionString, ServerVersion.AutoDetect(_connectionString)));
+				//options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+			    options.UseMySql(_accountConnectionString, ServerVersion.AutoDetect(_accountConnectionString)));
+
+
+			services.AddDbContext<SharedDbContext>(options =>
+				//options.UseSqlServer(Configuration.GetConnectionString("SharedConnection")));
+			    options.UseMySql(_shareddbConnectionString, ServerVersion.AutoDetect(_shareddbConnectionString)));
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

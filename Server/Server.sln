@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyClient", "DummyClient\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountServer", "AccountServer\AccountServer.csproj", "{84298675-6D29-4385-A302-0A4E75E51CEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedDB", "SharedDB\SharedDB.csproj", "{95A60975-53C8-4A8F-B242-B0545145DE83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{84298675-6D29-4385-A302-0A4E75E51CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84298675-6D29-4385-A302-0A4E75E51CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84298675-6D29-4385-A302-0A4E75E51CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A60975-53C8-4A8F-B242-B0545145DE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A60975-53C8-4A8F-B242-B0545145DE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A60975-53C8-4A8F-B242-B0545145DE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A60975-53C8-4A8F-B242-B0545145DE83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
