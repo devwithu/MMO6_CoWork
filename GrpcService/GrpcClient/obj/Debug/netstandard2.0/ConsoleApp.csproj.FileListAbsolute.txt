@@ -1,0 +1,10 @@
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.csproj.AssemblyReference.cache
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.AssemblyInfo.cs
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Work\VS2022\GrpcService\ConsoleApp\bin\Debug\netstandard2.0\ConsoleApp.deps.json
+D:\Work\VS2022\GrpcService\ConsoleApp\bin\Debug\netstandard2.0\ConsoleApp.dll
+D:\Work\VS2022\GrpcService\ConsoleApp\bin\Debug\netstandard2.0\ConsoleApp.pdb
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.dll
+D:\Work\VS2022\GrpcService\ConsoleApp\obj\Debug\netstandard2.0\ConsoleApp.pdb
