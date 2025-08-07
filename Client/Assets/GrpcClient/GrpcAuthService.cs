@@ -29,7 +29,7 @@ public class GrpcAuthService
     {
         RegisterRequest request = new RegisterRequest
         {
-            Username = userId,
+            Email = userId,
             Password = userPw,
         };
 
@@ -63,7 +63,7 @@ public class GrpcAuthService
     {
         LoginRequest request = new LoginRequest
         {
-            Username = userId,
+            Email = userId,
             Password = userPw
         };
 

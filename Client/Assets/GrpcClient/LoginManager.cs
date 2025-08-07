@@ -30,12 +30,6 @@ public class LoginManager : MonoBehaviour
 
     private async void OnLoginButtonClicked()
     {
-        using GrpcChannel channel = GrpcChannel.ForAddress("https://b760m.jdj.kr:7777", new GrpcChannelOptions() { HttpHandler = new YetAnotherHttpHandler(), DisposeHttpClient = true });
-
-        Auth.AuthClient authClient = new Auth.AuthClient(channel);
-        
-        
-        
         string username = UsernameInput.text;
         string password = PasswordInput.text;
 
@@ -49,9 +43,15 @@ public class LoginManager : MonoBehaviour
 
         try
         {
-            LoginReply reply = await authClient.LoginAsync(new LoginRequest { Username = "Alice", Password = "123" });
+            string url = ConfigManager.Instance.config.grpc_url;
+            Debug.Log(url);
+            using GrpcChannel channel = GrpcChannel.ForAddress(url, new GrpcChannelOptions() { HttpHandler = new YetAnotherHttpHandler(), DisposeHttpClient = true });
 
-            Debug.Log("gRPC 응답: " + reply.Detail);
+            Auth.AuthClient authClient = new Auth.AuthClient(channel);
+            
+            LoginReply reply = await authClient.LoginAsync(new LoginRequest { Email = username, Password = password });
+
+            Debug.Log("gRPC 응답: " + reply);
             StatusText.text = $"로그인 성공: {reply.Detail}";
         }
         catch (System.Exception ex)

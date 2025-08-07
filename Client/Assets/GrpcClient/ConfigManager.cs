@@ -29,7 +29,7 @@ public class ConfigManager : MonoSingleton<ConfigManager>
             Debug.LogWarning("Config file not found. Creating default config.");
             config = new ConfigData
             {
-                grpc_url = "https://b760m.jdj.kr:7777",
+                grpc_url = "https://mmo.jdj.kr:8443",
                 server_ip = "127.0.0.1"
             };
             SaveConfig(configPath);
