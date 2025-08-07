@@ -59,12 +59,12 @@ public class RegisterManager : MonoBehaviour
             RegisterReply reply = await authClient.RegisterAsync(new RegisterRequest { Email = username, Password = password});
 
             Debug.Log("gRPC 응답: " + reply.Detail);
-            RegisterStatusText.text = $"로그인 성공: {reply.Detail}";
+            RegisterStatusText.text = $"회원가입 성공: {reply.Detail}";
         }
         catch (System.Exception ex)
         {
             Debug.LogError("gRPC 오류: " + ex.Message);
-            RegisterStatusText.text = $"로그인 실패: {ex.Message ?? "서버 오류"}";
+            RegisterStatusText.text = $"회원가입 실패: {ex.Message ?? "서버 오류"}";
         }
         
         
