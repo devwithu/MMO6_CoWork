@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lb2/muWYDjE=",
+  "dgSpecHash": "jjyjvVmOUbc=",
   "success": true,
-  "projectFilePath": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\GrpcClient.csproj",
+  "projectFilePath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\GrpcClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alal.jeong\\.nuget\\packages\\google.protobuf\\3.31.1\\google.protobuf.3.31.1.nupkg.sha512",
     "C:\\Users\\alal.jeong\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",

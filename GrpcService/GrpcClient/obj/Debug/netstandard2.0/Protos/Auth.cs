@@ -24,22 +24,22 @@ namespace Mmorpg2d.Auth {
     static AuthReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChFQcm90b3MvYXV0aC5wcm90bxINbW1vcnBnMmQuYXV0aCI1Cg9SZWdpc3Rl",
-            "clJlcXVlc3QSEAoIdXNlcm5hbWUYASABKAkSEAoIcGFzc3dvcmQYAiABKAki",
-            "MAoNUmVnaXN0ZXJSZXBseRIPCgdzdWNjZXNzGAEgASgIEg4KBmRldGFpbBgC",
-            "IAEoCSIyCgxMb2dpblJlcXVlc3QSEAoIdXNlcm5hbWUYASABKAkSEAoIcGFz",
-            "c3dvcmQYAiABKAkiOgoKTG9naW5SZXBseRIPCgdzdWNjZXNzGAEgASgIEg4K",
-            "BmRldGFpbBgCIAEoCRILCgNqd3QYAyABKAkykQEKBEF1dGgSSAoIUmVnaXN0",
-            "ZXISHi5tbW9ycGcyZC5hdXRoLlJlZ2lzdGVyUmVxdWVzdBocLm1tb3JwZzJk",
-            "LmF1dGguUmVnaXN0ZXJSZXBseRI/CgVMb2dpbhIbLm1tb3JwZzJkLmF1dGgu",
-            "TG9naW5SZXF1ZXN0GhkubW1vcnBnMmQuYXV0aC5Mb2dpblJlcGx5QhCqAg1N",
-            "bW9ycGcyZC5BdXRoYgZwcm90bzM="));
+            "ChFQcm90b3MvYXV0aC5wcm90bxINbW1vcnBnMmQuYXV0aCIyCg9SZWdpc3Rl",
+            "clJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQYAiABKAkiMAoN",
+            "UmVnaXN0ZXJSZXBseRIPCgdzdWNjZXNzGAEgASgIEg4KBmRldGFpbBgCIAEo",
+            "CSIvCgxMb2dpblJlcXVlc3QSDQoFZW1haWwYASABKAkSEAoIcGFzc3dvcmQY",
+            "AiABKAkiOgoKTG9naW5SZXBseRIPCgdzdWNjZXNzGAEgASgIEg4KBmRldGFp",
+            "bBgCIAEoCRILCgNqd3QYAyABKAkykQEKBEF1dGgSSAoIUmVnaXN0ZXISHi5t",
+            "bW9ycGcyZC5hdXRoLlJlZ2lzdGVyUmVxdWVzdBocLm1tb3JwZzJkLmF1dGgu",
+            "UmVnaXN0ZXJSZXBseRI/CgVMb2dpbhIbLm1tb3JwZzJkLmF1dGguTG9naW5S",
+            "ZXF1ZXN0GhkubW1vcnBnMmQuYXV0aC5Mb2dpblJlcGx5QhCqAg1NbW9ycGcy",
+            "ZC5BdXRoYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.RegisterRequest), global::Mmorpg2d.Auth.RegisterRequest.Parser, new[]{ "Username", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.RegisterRequest), global::Mmorpg2d.Auth.RegisterRequest.Parser, new[]{ "Email", "Password" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.RegisterReply), global::Mmorpg2d.Auth.RegisterReply.Parser, new[]{ "Success", "Detail" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.LoginRequest), global::Mmorpg2d.Auth.LoginRequest.Parser, new[]{ "Username", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.LoginRequest), global::Mmorpg2d.Auth.LoginRequest.Parser, new[]{ "Email", "Password" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Mmorpg2d.Auth.LoginReply), global::Mmorpg2d.Auth.LoginReply.Parser, new[]{ "Success", "Detail", "Jwt" }, null, null, null, null)
           }));
     }
@@ -82,7 +82,7 @@ namespace Mmorpg2d.Auth {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public RegisterRequest(RegisterRequest other) : this() {
-      username_ = other.username_;
+      email_ = other.email_;
       password_ = other.password_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -93,18 +93,18 @@ namespace Mmorpg2d.Auth {
       return new RegisterRequest(this);
     }
 
-    /// <summary>Field number for the "username" field.</summary>
-    public const int UsernameFieldNumber = 1;
-    private string username_ = "";
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 1;
+    private string email_ = "";
     /// <summary>
-    /// e-mail µµ OK
+    /// e-mail ÎèÑ OK
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Username {
-      get { return username_; }
+    public string Email {
+      get { return email_; }
       set {
-        username_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -135,7 +135,7 @@ namespace Mmorpg2d.Auth {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Username != other.Username) return false;
+      if (Email != other.Email) return false;
       if (Password != other.Password) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -144,7 +144,7 @@ namespace Mmorpg2d.Auth {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Username.Length != 0) hash ^= Username.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -164,9 +164,9 @@ namespace Mmorpg2d.Auth {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Username.Length != 0) {
+      if (Email.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Username);
+        output.WriteString(Email);
       }
       if (Password.Length != 0) {
         output.WriteRawTag(18);
@@ -182,9 +182,9 @@ namespace Mmorpg2d.Auth {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Username.Length != 0) {
+      if (Email.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Username);
+        output.WriteString(Email);
       }
       if (Password.Length != 0) {
         output.WriteRawTag(18);
@@ -200,8 +200,8 @@ namespace Mmorpg2d.Auth {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Username.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
       }
       if (Password.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
@@ -218,8 +218,8 @@ namespace Mmorpg2d.Auth {
       if (other == null) {
         return;
       }
-      if (other.Username.Length != 0) {
-        Username = other.Username;
+      if (other.Email.Length != 0) {
+        Email = other.Email;
       }
       if (other.Password.Length != 0) {
         Password = other.Password;
@@ -244,7 +244,7 @@ namespace Mmorpg2d.Auth {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 18: {
@@ -271,7 +271,7 @@ namespace Mmorpg2d.Auth {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 18: {
@@ -555,7 +555,7 @@ namespace Mmorpg2d.Auth {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public LoginRequest(LoginRequest other) : this() {
-      username_ = other.username_;
+      email_ = other.email_;
       password_ = other.password_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -566,15 +566,15 @@ namespace Mmorpg2d.Auth {
       return new LoginRequest(this);
     }
 
-    /// <summary>Field number for the "username" field.</summary>
-    public const int UsernameFieldNumber = 1;
-    private string username_ = "";
+    /// <summary>Field number for the "email" field.</summary>
+    public const int EmailFieldNumber = 1;
+    private string email_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Username {
-      get { return username_; }
+    public string Email {
+      get { return email_; }
       set {
-        username_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        email_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -605,7 +605,7 @@ namespace Mmorpg2d.Auth {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Username != other.Username) return false;
+      if (Email != other.Email) return false;
       if (Password != other.Password) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -614,7 +614,7 @@ namespace Mmorpg2d.Auth {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Username.Length != 0) hash ^= Username.GetHashCode();
+      if (Email.Length != 0) hash ^= Email.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -634,9 +634,9 @@ namespace Mmorpg2d.Auth {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Username.Length != 0) {
+      if (Email.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Username);
+        output.WriteString(Email);
       }
       if (Password.Length != 0) {
         output.WriteRawTag(18);
@@ -652,9 +652,9 @@ namespace Mmorpg2d.Auth {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Username.Length != 0) {
+      if (Email.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Username);
+        output.WriteString(Email);
       }
       if (Password.Length != 0) {
         output.WriteRawTag(18);
@@ -670,8 +670,8 @@ namespace Mmorpg2d.Auth {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Username.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
+      if (Email.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
       }
       if (Password.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
@@ -688,8 +688,8 @@ namespace Mmorpg2d.Auth {
       if (other == null) {
         return;
       }
-      if (other.Username.Length != 0) {
-        Username = other.Username;
+      if (other.Email.Length != 0) {
+        Email = other.Email;
       }
       if (other.Password.Length != 0) {
         Password = other.Password;
@@ -714,7 +714,7 @@ namespace Mmorpg2d.Auth {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 18: {
@@ -741,7 +741,7 @@ namespace Mmorpg2d.Auth {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 18: {

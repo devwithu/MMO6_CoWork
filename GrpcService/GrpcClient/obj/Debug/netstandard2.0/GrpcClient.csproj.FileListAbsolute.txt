@@ -18,3 +18,14 @@ D:\Work\VS2022\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.Assemb
 D:\Work\VS2022\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.csproj.CoreCompileInputs.cache
 D:\Work\VS2022\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.dll
 D:\Work\VS2022\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.pdb
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\bin\Debug\netstandard2.0\GrpcClient.deps.json
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\bin\Debug\netstandard2.0\GrpcClient.dll
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\bin\Debug\netstandard2.0\GrpcClient.pdb
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.csproj.AssemblyReference.cache
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.AssemblyInfoInputs.cache
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.AssemblyInfo.cs
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.csproj.CoreCompileInputs.cache
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.sourcelink.json
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.dll
+D:\Git\MMO6_CoWork\GrpcService\GrpcClient\obj\Debug\netstandard2.0\GrpcClient.pdb

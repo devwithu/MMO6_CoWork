@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\VS2022\\GrpcService\\",
+  "WorkspaceRootPath": "D:\\Git\\MMO6_CoWork\\GrpcService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\work\\vs2022\\grpcservice\\grpcservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcclient\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\work\\vs2022\\grpcservice\\grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\work\\vs2022\\grpcservice\\grpcservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|d:\\work\\vs2022\\grpcservice\\grpcclient\\grpcclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcclient\\grpcclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\grpcclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\work\\vs2022\\grpcservice\\grpcservice\\obj\\debug\\net8.0\\protos\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\git\\mmo6_cowork\\grpcservice\\grpcservice\\obj\\debug\\net8.0\\protos\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\obj\\debug\\net8.0\\protos\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|d:\\work\\vs2022\\grpcservice\\grpcservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C8894BE0-156C-4051-B467-2FC630A54AC7}|GrpcService\\GrpcService.csproj|solutionrelative:grpcservice\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,40 +38,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GrpcClient",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\GrpcClient.csproj",
-              "RelativeDocumentMoniker": "GrpcClient\\GrpcClient.csproj",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\GrpcClient.csproj",
-              "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-06T04:45:36.944Z",
+              "DocumentIndex": 0,
+              "Title": "auth.proto",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\Protos\\auth.proto",
+              "RelativeDocumentMoniker": "GrpcClient\\Protos\\auth.proto",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\Protos\\auth.proto",
+              "RelativeToolTip": "GrpcClient\\Protos\\auth.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-08-07T02:14:24.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "GrpcClient",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\GrpcClient.csproj",
+              "RelativeDocumentMoniker": "GrpcClient\\GrpcClient.csproj",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\GrpcClient.csproj",
+              "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T04:45:36.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\appsettings.json",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\appsettings.json",
               "RelativeDocumentMoniker": "GrpcService\\appsettings.json",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\appsettings.json",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\appsettings.json",
               "RelativeToolTip": "GrpcService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-06T04:03:35.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Auth.cs",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
               "RelativeDocumentMoniker": "GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
               "RelativeToolTip": "GrpcService\\obj\\Debug\\net8.0\\Protos\\Auth.cs",
               "ViewState": "AgIAAEIBAACAqqqqqqoUwEgBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,41 +91,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Program.cs",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Program.cs",
               "RelativeDocumentMoniker": "GrpcService\\Program.cs",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Program.cs",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Program.cs",
               "RelativeToolTip": "GrpcService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T03:44:18.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T03:44:18.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Services\\AuthService.cs",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "GrpcService\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Services\\AuthService.cs",
               "RelativeToolTip": "GrpcService\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T03:39:21.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T03:39:21.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "auth.proto",
-              "DocumentMoniker": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Protos\\auth.proto",
+              "DocumentMoniker": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Protos\\auth.proto",
               "RelativeDocumentMoniker": "GrpcService\\Protos\\auth.proto",
-              "ToolTip": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\Protos\\auth.proto",
+              "ToolTip": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\Protos\\auth.proto",
               "RelativeToolTip": "GrpcService\\Protos\\auth.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-08-06T03:36:03.197Z"
+              "WhenOpened": "2025-08-06T03:36:03.197Z",
+              "EditorCaption": ""
             }
           ]
         }

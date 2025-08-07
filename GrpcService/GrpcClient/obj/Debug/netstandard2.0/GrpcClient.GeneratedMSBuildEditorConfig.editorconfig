@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = GrpcClient
-build_property.ProjectDir = D:\Work\VS2022\GrpcService\GrpcClient\
+build_property.ProjectDir = D:\Git\MMO6_CoWork\GrpcService\GrpcClient\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fcz617H9qgw=",
+  "dgSpecHash": "dkWKsK7Waa0=",
   "success": true,
-  "projectFilePath": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\GrpcService.csproj",
+  "projectFilePath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\GrpcService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alal.jeong\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
     "C:\\Users\\alal.jeong\\.nuget\\packages\\grpc.aspnetcore\\2.57.0\\grpc.aspnetcore.2.57.0.nupkg.sha512",

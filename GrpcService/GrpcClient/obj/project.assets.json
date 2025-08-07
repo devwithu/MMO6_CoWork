@@ -799,11 +799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\GrpcClient.csproj",
+      "projectUniqueName": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\GrpcClient.csproj",
       "projectName": "GrpcClient",
-      "projectPath": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\GrpcClient.csproj",
+      "projectPath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\GrpcClient.csproj",
       "packagesPath": "C:\\Users\\alal.jeong\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\VS2022\\GrpcService\\GrpcClient\\obj\\",
+      "outputPath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

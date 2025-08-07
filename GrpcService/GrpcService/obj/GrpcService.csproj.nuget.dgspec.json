@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\VS2022\\GrpcService\\GrpcService\\GrpcService.csproj": {}
+    "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\GrpcService.csproj": {}
   },
   "projects": {
-    "D:\\Work\\VS2022\\GrpcService\\GrpcService\\GrpcService.csproj": {
+    "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\GrpcService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\GrpcService.csproj",
+        "projectUniqueName": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\GrpcService.csproj",
         "projectName": "GrpcService",
-        "projectPath": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\GrpcService.csproj",
+        "projectPath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\GrpcService.csproj",
         "packagesPath": "C:\\Users\\alal.jeong\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\VS2022\\GrpcService\\GrpcService\\obj\\",
+        "outputPath": "D:\\Git\\MMO6_CoWork\\GrpcService\\GrpcService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
